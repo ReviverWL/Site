@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Socialico";
+  src: url("./fonts/Socialico.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Socialico.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Socialico.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Socialico.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Socialico.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Socialico.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Socialico.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
