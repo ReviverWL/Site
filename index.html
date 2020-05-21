@@ -9,6 +9,20 @@
     <title>Клёвый сайтец</title>
 </head>
     <body>
+        <div id='raz1'></div>   
+        <script>
+(function(){
+  var http = new XMLHttpRequest();  
+  http.open('GET', 'http://www.mail.ru');
+  http.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      var doc = new DOMParser().parseFromString(this.responseText, "text/html");  // преобразовать текст в HTML
+      document.getElementById('raz1').innerHTML = doc.getElementsByTagName('body')[0].innerHTML;
+    }
+  }
+  http.send(null);
+})()
+</script>
         <div class="general-info">
             <div class="container">
                 <div class="collumn-1">
